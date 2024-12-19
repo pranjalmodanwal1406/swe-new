@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+$font-family: 'Raleway', sans-serif;
+
+.footer {
+<<<<<<< HEAD
+  padding: 20px 0;
+  color: #333;
+  overflow: hidden;
+
+=======
+    padding: 20px 0;
+    color: #333;
+  
+  
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+<<<<<<< HEAD
+    // padding: 0 20px;
+    font-family: Raleway;
+  }
+
+  .footer-section about {
+    margin-right: 12em;
+  }
+
+=======
+    padding: 0 20px;
+    font-family: Raleway;
+  }
+
+  .footer-section about{
+    margin-right: 12em;
+  }
+  
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+  .footer-section {
+    flex: 2;
+    min-width: 200px;
+    margin: 10px 20px;
+<<<<<<< HEAD
+
+    // .links{
+
+    // }
+  }
+
+=======
+  }
+  
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+  .logo img {
+    width: 70px;
+    height: auto;
+  }
+<<<<<<< HEAD
+
+  .footer-section.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 95px;
+    margin: -1% -2%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
+  .footer-section.links .ui {
+    margin: -2% 0;
+  }
+
+  .footer-section h2 {
+    margin-top: 10px;
+  }
+
+  .footer-section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+=======
+  
+  .footer-section h2 {
+    margin-top: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+<<<<<<< HEAD
+
+  .footer-section ul li {
+    margin: 15px;
+    text-align: start;
+  }
+
+=======
+  
+  .footer-section ul li {
+    margin: 15px ;
+  }
+  
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+  .footer-section ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+<<<<<<< HEAD
+
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+
+=======
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+  }
+<<<<<<< HEAD
+
+  .footer-bottom p {
+    margin: 10px 0;
+  }
+
+=======
+  
+  .footer-bottom p {
+    margin: 10px 0;
+  }
+  
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+  .socials {
+    display: flex;
+    gap: 10px;
+    color: black;
+  }
+<<<<<<< HEAD
+
+  .socials a {
+    color: #333;
+    font-size: 16px;
+=======
+  
+  .socials a {
+    color: #333;
+    font-size: 18px;
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+    text-decoration: none;
+  }
+
+}
+<<<<<<< HEAD
+
+@media (max-width: 768px) {
+  .footer-section ul li {
+    margin: 15px 0 !important;
+  }
+
+  .footer .footer-section ul li a {
+    color: #333;
+    text-decoration: none;
+    margin: 0;
+  }
+
+  a {
+    font-size: 1em !important;
+  }
+
+  .footer-section.links {
+    padding: 0px 30px 0 41px !important;
+    flex: 0 0 60% !important;
+    margin-bottom: 0 !important;
+    align-items: start !important;
+  }
+
+  .footer-container {
+    // flex-direction: column;
+    // align-items: center;
+  }
+
+  .footer-section {
+    margin: 20px 0;
+    flex: 0 0 100%;
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
+}
+
+
+@media (max-width:440px){
+  .footer-section.links {
+    padding: 0px 30px 0 41px !important;
+    flex: 0 0 100% !important;
+    margin-bottom: 0 !important;
+    align-items: center !important;
+}
+}
+@media  (min-width:700px) and (max-width:998px){
+  .footer-section.links {
+    flex: 0 0 35% !important;
+  }
+
+  .footer .footer-section {
+    flex: 0 0 60%
+  }
+}
+=======
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      margin: 20px 0;
+    }
+  
+    .footer-bottom {
+      text-align: center;
+    }
+  }
+  
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8

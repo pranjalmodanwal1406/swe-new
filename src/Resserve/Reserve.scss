@@ -1,0 +1,404 @@
+<<<<<<< HEAD
+=======
+// .Reserve {
+//     img {
+//         width: 100%;
+//         position: relative;
+//     }
+
+//     .week {
+//         display: flex;
+//         justify-content: space-evenly;
+//         width: 80%;
+//         align-items: center;
+//         position: absolute;
+//         top: 20%;
+
+//         .weekName {
+//             width: 60%;
+
+//             img {
+//                 width: 100%;
+//             }
+//         }
+
+//         .week2 {
+//             flex: 1;
+
+//             h3 {
+//                 font-family: Raleway;
+//                 font-size: 39.38px;
+//                 font-weight: 600;
+//                 line-height: 40.25px;
+//                 text-align: left;
+
+//                 span {
+//                     font-family: Raleway;
+//                     font-size: 18.19px;
+//                     font-weight: 600;
+//                     line-height: 30.09px;
+//                     text-align: left;
+
+//                 }
+
+
+//             }
+
+//             h4 {
+//                 font-family: Raleway;
+//                 font-size: 39.36px;
+//                 font-weight: 500;
+//                 line-height: 9.12px;
+//                 text-align: left;
+
+//                 span {
+//                     font-family: Raleway;
+//                     font-size: 52.13px;
+//                     font-weight: 700;
+
+//                     letter-spacing: 0.07549872994422913px;
+//                     text-align: left;
+
+//                 }
+
+//             }
+
+//             p {
+//                 font-family: Raleway;
+//                 font-size: 32px;
+//                 font-weight: 500;
+//                 line-height: 37.57px;
+//                 letter-spacing: 0.07549872994422913px;
+//                 text-align: left;
+
+
+//                 span {
+//                     font-family: Raleway;
+//                     font-size: 32px;
+//                     font-weight: 600;
+//                     line-height: 37.57px;
+//                     letter-spacing: 0.07549872994422913px;
+//                     text-align: left;
+
+
+//                 }
+
+//             }
+
+//         }
+//     }
+
+//     .book {
+//         display: flex;
+//         justify-content: center;
+
+//         align-items: center;
+//         position: absolute;
+//         bottom: -2%;
+//         left: 38%;
+
+//         button {
+//             width: 321px;
+//             height: 68px;
+//             background-color: transparent;
+//             border-radius: 50px;
+//             border: 2px solid black;
+//             font-family: Raleway;
+//             font-size: 34.84px;
+//             font-weight: 500;
+//             line-height: 50.29px;
+//             letter-spacing: 0.06422421336174011px;
+//             text-align: center;
+          
+//         }
+//     }
+
+// }
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+.Reserve {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 80vh;
+        object-fit: cover; // Ensures the image fills the container proportionally
+<<<<<<< HEAD
+        // position: absolute;
+        position: relative;
+        top: 0;
+        margin-top: 2%;
+=======
+        position: absolute;
+        top: 0;
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+    }
+
+    .week {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+<<<<<<< HEAD
+        width: 70%;
+        margin: 0 auto;
+        position: absolute;
+        top: 10%;
+=======
+        width: 60%;
+        margin: 0 auto;
+        position: absolute;
+        top: 20%;
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+        left: 50%;
+        transform: translateX(-50%);
+
+        .weekName {
+            width: 60%;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .week2 {
+            flex: 1;
+            margin-left: 20px;
+
+            h3 {
+                font-family: Raleway;
+                font-size: 2.5rem;
+                font-weight: 600;
+                margin-bottom: 10px;
+                text-align: left;
+
+                span {
+                    font-family: Raleway;
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                }
+            }
+
+            h4 {
+                font-family: Raleway;
+                font-size: 2rem;
+                font-weight: 500;
+                margin: 0;
+                text-align: left;
+
+                span {
+                    font-family: Raleway;
+                    font-size: 2.5rem;
+                    font-weight: 700;
+                }
+            }
+
+            p {
+                font-family: Raleway;
+                font-size: 1.5rem;
+                font-weight: 500;
+                line-height: 1.4;
+                letter-spacing: 0.07px;
+                text-align: left;
+
+                span {
+                    font-family: Raleway;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .book {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+<<<<<<< HEAD
+        bottom: 25%;
+=======
+        bottom: 22%;
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+        left: 50%;
+        transform: translateX(-50%);
+
+        button {
+            width: 300px;
+            height: 60px;
+            background-color: transparent;
+            border-radius: 50px;
+            border: 2px solid black;
+            font-family: Raleway;
+            font-size: 1.8rem;
+            font-weight: 500;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+
+            &:hover {
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+
+    // Media Queries for Full Responsiveness
+    @media screen and (max-width: 1024px) {
+        .week {
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            top: 15%;
+
+            .weekName {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .week2 {
+                h3 {
+                    font-size: 2rem;
+                }
+
+                h4 {
+                    font-size: 1.8rem;
+
+                    span {
+                        font-size: 2rem;
+                    }
+                }
+
+                p {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+
+        .book {
+            bottom: 3%;
+            button {
+                width: 260px;
+                height: 55px;
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .week {
+            width: 100%;
+            top: 10%;
+<<<<<<< HEAD
+            flex-direction: row !important;
+
+            .weekName {
+                width: 50%;
+=======
+
+            .weekName {
+                width: 80%;
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+            }
+
+            .week2 {
+                h3 {
+                    font-size: 1.8rem;
+                }
+
+                h4 {
+                    font-size: 1.6rem;
+
+                    span {
+                        font-size: 1.8rem;
+                    }
+                }
+
+                p {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+<<<<<<< HEAD
+.reserve{
+        .book {
+            bottom: 40%;
+=======
+
+        .book {
+            bottom: 5%;
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+            button {
+                width: 230px;
+                height: 50px;
+                font-size: 1.4rem;
+            }
+        }
+    }
+<<<<<<< HEAD
+    }
+    @media screen and (max-width: 480px) {
+       
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            position: relative;
+        
+=======
+
+    @media screen and (max-width: 480px) {
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+        .aa {
+            display: none; // Hide image on small screens
+        }
+
+        .week {
+<<<<<<< HEAD
+            flex-direction: column !important;
+=======
+            flex-direction: column;
+>>>>>>> cf386759a9e616a155fd22f081a63a534e3141d8
+            align-items: center;
+            top: 15%;
+            width: 100%;
+
+            .weekName {
+                width: 100%;
+                margin-bottom: 15px;
+                img {
+                    width: 80%;
+                    height: auto;
+                }
+            }
+
+            .week2 {
+                h3 {
+                    font-size: 1.6rem;
+                }
+
+                h4 {
+                    font-size: 1.4rem;
+
+                    span {
+                        font-size: 1.6rem;
+                    }
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .book {
+            bottom: 5%;
+            button {
+                width: 200px;
+                height: 45px;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
